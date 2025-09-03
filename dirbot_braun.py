@@ -72,16 +72,8 @@ def create_folders_for_range(start_year: int, end_year: int) -> None:
     logger.info("FUNCTION: create_folders_for_range()")
     logger.info(f"PARAMETERS: start_year = {start_year}, end_year = {end_year}")
 
-    # TODO: Loop through the years from start_year to end_year (inclusive)
-    # TODO: For each year, create a folder using ROOT_DIR / str(year)
-    # TODO: Log a message each time a folder is created
-    # TODO: Use .mkdir(exist_ok=True) so the program doesn't crash if the folder already exists
-
-    # Example starter structure:
-    # for year in range(start_year, end_year + 1):
-    #     year_path = ROOT_DIR / str(year)
-    #     year_path.mkdir(exist_ok=True)
-    #     logger.info(f"Created folder: {year_path}")
+   
+ 
     for year in range(start_year, end_year +1):
         year_path = ROOT_DIR / str(year)
         year_path.mkdir(exist_ok=True)
@@ -110,6 +102,11 @@ def create_folders_from_list(folder_list: list) -> None:
     # TODO: Loop through the list of folder names
     # TODO: For each name, create a folder using ROOT_DIR / name
     # TODO: Log a message each time a folder is created
+
+    for folder in folder_list():
+        folder_path = ROOT_DIR / str(folder)
+        folder_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {folder_path}")
 
     pass
 
