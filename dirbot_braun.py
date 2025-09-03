@@ -41,6 +41,11 @@ logger.info("Logger loaded.")
 
 # Create a project path object for the root directory of the project.
 ROOT_DIR = pathlib.Path.cwd()
+YEAR_ROOT = pathlib.Path.cwd() / "Years"
+NAMED_ROOT = pathlib.Path.cwd() / "Names"
+PREFIXED_LC_ROOT = pathlib.Path.cwd() / "Prefixes"
+TIMED_ROOT = pathlib.Path.cwd() / "Timed"
+STANDARD_ROOT = pathlib.Path.cwd() / "Standardized"
 
 REGIONS = [
     "North America", 
@@ -72,10 +77,10 @@ def create_folders_for_range(start_year: int, end_year: int) -> None:
     logger.info("FUNCTION: create_folders_for_range()")
     logger.info(f"PARAMETERS: start_year = {start_year}, end_year = {end_year}")
 
-   
+    YEAR_ROOT.mkdir(exist_ok=True)
  
     for year in range(start_year, end_year +1):
-        year_path = ROOT_DIR / str(year)
+        year_path = year_root / str(year)
         year_path.mkdir(exist_ok=True)
         logger.info(f"Created folder: {year_path}")
 
