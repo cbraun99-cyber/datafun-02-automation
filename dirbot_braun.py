@@ -1,16 +1,13 @@
 """
-File: dirbot_case.py
+File: dirbot_braun.py
 
 Purpose: Automate the creation of project folders 
 (and demonstrate basic Python coding skills).
 
 Hint: See the Textbook, Skill Drills, and GUIDES for code snippets to help complete this module.
 
-Author: Denise Case
+Author: Chris Braun
 
-TODO: Change the module name in this opening docstring to use your name instead of case. 
-TODO: Change the author in this opening docstring to your name or alias. 
-TODO: Remove each TODO after you complete it. 
 """
 
 #####################################
@@ -28,8 +25,7 @@ import loguru
 sys.path.append(str(pathlib.Path(__file__).resolve().parent))
 
 # Import local modules
-# TODO: Import your module in the line below instead
-import utils_case
+import utils_chrisbraun
 
 #####################################
 # Configure Logger and Verify
@@ -202,7 +198,7 @@ def main() -> None:
     logger.info("#####################################\n")
 
     # TODO: Change this to use your module and your get_byline() function instead
-    logger.info(f"Byline: {utils_case.get_byline()}")
+    logger.info(f"Byline: {utils_chrisbraun.get_byline()}")
 
     # Call function 1 to create folders for a range (e.g. years)
     create_folders_for_range(start_year=2020, end_year=2023)
