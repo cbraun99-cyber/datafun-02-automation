@@ -111,6 +111,9 @@ def create_folders_from_list(folder_list: list) -> None:
     NAMED_ROOT.mkdir(exist_ok=True)
 
     for folder in folder_list():
+        folder = str(name).strip()
+        if not folder:
+            continue
         folder_path = NAMED_ROOT / str(folder)
         folder_path.mkdir(exist_ok=True)
         logger.info(f"Created folder: {folder_path}")
