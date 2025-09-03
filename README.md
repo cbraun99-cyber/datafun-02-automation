@@ -23,17 +23,5 @@ year_folders/: Folders for each year (2020, 2021, 2022, 2023)
 Requirements
 Python 3.8+
 See requirements.txt for dependencies
-Setup
-Clone the repository
-git clone https://github.com/KHenn22/datafun-02-automation.git
-cd datafun-02-automation
-Create and activate a virtual environment
-python3 -m venv .venv
-source .venv/bin/activate
-Install dependencies
-python3 -m pip install --upgrade pip setuptools wheel
-python3 -m pip install -r requirements.txt
-Usage
-To automate folder creation, run:
 
 python3 dirbot_braun.py
