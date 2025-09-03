@@ -2,6 +2,7 @@
 Project for Module 2 \
 Run py -m venv .venv \
 then .venv\Scripts\activate \
+run py -m pip install -r requirements.txt \
 
 datafun-02-automation
 Automate the creation and management of standardized data folders for analytics projects.
