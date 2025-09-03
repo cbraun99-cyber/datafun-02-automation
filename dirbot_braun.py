@@ -82,7 +82,10 @@ def create_folders_for_range(start_year: int, end_year: int) -> None:
     #     year_path = ROOT_DIR / str(year)
     #     year_path.mkdir(exist_ok=True)
     #     logger.info(f"Created folder: {year_path}")
-
+    for year in range(start_year, end_year +1):
+        year_path = ROOT_DIR / str(year)
+        year_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {year_path}")
 
   
 #####################################
