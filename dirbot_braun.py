@@ -103,18 +103,27 @@ def create_folders_from_list(folder_list: list) -> None:
 
     logger.info("FUNCTION: create_folders_from_list()")
     logger.info(f"PARAMETER: folder_list = {folder_list}")
-
-    # TODO: Loop through the list of folder names
-    # TODO: For each name, create a folder using ROOT_DIR / name
-    # TODO: Log a message each time a folder is created
+    logger.info(f"PARAMETER: force_lowercase = {force_lowercase}")
+    logger.info(f"PARAMETER: remove_spaces = {remove_spaces}")
 
     NAMED_ROOT.mkdir(exist_ok=True)
 
-    for folder in folder_list():
-        folder = str(name).strip()
-        if not folder:
+    for folder_name in folder_list:  # Fixed: removed parentheses after folder_list
+        # Process the folder name
+        processed_name = str(folder_name).strip()  # Fixed: changed 'name' to 'folder_name'
+        
+        if force_lowercase:
+            processed_name = processed_name.lower()
+        
+        if remove_spaces:
+            processed_name = processed_name.replace(" ", "")
+        
+        # Skip empty names after processing
+        if not processed_name:
+            logger.warning(f"Skipping empty folder name from: {folder_name}")
             continue
-        folder_path = NAMED_ROOT / str(folder)
+        
+        folder_path = NAMED_ROOT / processed_name
         folder_path.mkdir(exist_ok=True)
         logger.info(f"Created folder: {folder_path}")
 
