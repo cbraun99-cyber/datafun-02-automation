@@ -44,11 +44,11 @@ logger.info("Logger loaded.")
 
 # Create a project path object for the root directory of the project.
 ROOT_DIR = pathlib.Path.cwd()
-YEAR_ROOT = pathlib.Path.cwd() / "Years"
-NAMED_ROOT = pathlib.Path.cwd() / "Names"
-PREFIXED_LC_ROOT = pathlib.Path.cwd() / "Prefixes"
-TIMED_ROOT = pathlib.Path.cwd() / "Timed"
-STANDARD_ROOT = pathlib.Path.cwd() / "Standardized"
+YEAR_ROOT = pathlib.Path.cwd() / "years"
+NAMED_ROOT = pathlib.Path.cwd() / "names"
+PREFIXED_LC_ROOT = pathlib.Path.cwd() / "prefixes"
+TIMED_ROOT = pathlib.Path.cwd() / "timed"
+STANDARD_ROOT = pathlib.Path.cwd() / "standardized"
 
 REGIONS = [
     "North America", 
@@ -235,7 +235,32 @@ def create_standardized_folders(folder_list: list, to_lowercase: bool = False, r
     logger.info("FUNCTION: create_standardized_folders()")
     logger.info(f"PARAMETERS: folder_list = {folder_list}, to_lowercase = {to_lowercase}, remove_spaces = {remove_spaces}")
 
-    pass
+    # Ensure the root directory exists
+    STANDARD_ROOT.mkdir(exist_ok=True)
+
+    for folder_name in folder_list:
+        # Standardize the folder name
+        processed_name = str(folder_name).strip()
+
+        # Make lowercase
+        if to_lowercase:
+            processed_name = processed_name.lower()
+
+        # Remove spaces
+        if remove_spaces:
+            processed_name = processed_name.replace(" ", "")
+
+        # Skip empty names after processing
+        if not processed_name:
+            logger.warning(f"Skipping empty folder name from {folder_name}")
+            continue
+
+        #Create the standardized folder
+        folder_path = STANDARD_ROOT / processed_name
+        folder_path.mkdir(exist_ok=True)
+        logger.info(f"Create standardized folder: {folder_path}")
+
+
   
 #####################################
 # Define a main() function for this module.
@@ -248,7 +273,6 @@ def main() -> None:
     logger.info("# Starting execution of main()")
     logger.info("#####################################\n")
 
-    # TODO: Change this to use your module and your get_byline() function instead
     logger.info(f"Byline: {utils_chrisbraun.get_byline()}")
 
     # Call function 1 to create folders for a range (e.g. years)
