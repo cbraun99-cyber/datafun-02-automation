@@ -205,3 +205,171 @@ Mean Satisfaction Score:    4.80
 2025-09-03 09:44:42.814 | INFO     | __main__:create_folders_for_range:72 - FUNCTION: create_folders_for_range()
 2025-09-03 09:44:42 | INFO | __main__:73 | PARAMETERS: start_year = 2020, end_year = 2023
 2025-09-03 09:44:42.814 | INFO     | __main__:create_folders_for_range:73 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-04 09:28:25 | INFO | utils_chrisbraun:47 | Logger loaded.
+2025-09-04 09:28:25 | INFO | __main__:36 | Logger loaded.
+2025-09-04 09:28:25.724 | INFO     | __main__:<module>:36 - Logger loaded.
+2025-09-04 09:28:25 | INFO | __main__:215 | #####################################
+2025-09-04 09:28:25.724 | INFO     | __main__:main:215 - #####################################
+2025-09-04 09:28:25 | INFO | __main__:216 | # Starting execution of main()
+2025-09-04 09:28:25.724 | INFO     | __main__:main:216 - # Starting execution of main()
+2025-09-04 09:28:25 | INFO | __main__:217 | #####################################
+
+2025-09-04 09:28:25.724 | INFO     | __main__:main:217 - #####################################
+
+2025-09-04 09:28:25 | INFO | __main__:220 | Byline: 
+**********************************************************
+Braun Data Concepts — Project Header
+**********************************************************
+Author:                     Chris Braun
+Motto:                      Precise. Timely. Useful.
+Years Active:               5
+Accepting New Clients?:     True
+Is Hiring?                  False
+Number of Employees         25
+Number of Offices?          3
+Office Locations?           ['Humphrey, NE', 'Norfolk, NE', 'Columbus, NE']
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-04 09:28:25.725 | INFO     | __main__:main:220 - Byline: 
+**********************************************************
+Braun Data Concepts — Project Header
+**********************************************************
+Author:                     Chris Braun
+Motto:                      Precise. Timely. Useful.
+Years Active:               5
+Accepting New Clients?:     True
+Is Hiring?                  False
+Number of Employees         25
+Number of Offices?          3
+Office Locations?           ['Humphrey, NE', 'Norfolk, NE', 'Columbus, NE']
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-04 09:28:25 | INFO | __main__:77 | FUNCTION: create_folders_for_range()
+2025-09-04 09:28:25.725 | INFO     | __main__:create_folders_for_range:77 - FUNCTION: create_folders_for_range()
+2025-09-04 09:28:25 | INFO | __main__:78 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-04 09:28:25.725 | INFO     | __main__:create_folders_for_range:78 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-04 09:28:25 | INFO | __main__:85 | Created folder: C:\Repos\datafun-02-automation\Years\2020
+2025-09-04 09:28:25.725 | INFO     | __main__:create_folders_for_range:85 - Created folder: C:\Repos\datafun-02-automation\Years\2020
+2025-09-04 09:28:25 | INFO | __main__:85 | Created folder: C:\Repos\datafun-02-automation\Years\2021
+2025-09-04 09:28:25.726 | INFO     | __main__:create_folders_for_range:85 - Created folder: C:\Repos\datafun-02-automation\Years\2021
+2025-09-04 09:28:25 | INFO | __main__:85 | Created folder: C:\Repos\datafun-02-automation\Years\2022
+2025-09-04 09:28:25.726 | INFO     | __main__:create_folders_for_range:85 - Created folder: C:\Repos\datafun-02-automation\Years\2022
+2025-09-04 09:28:25 | INFO | __main__:85 | Created folder: C:\Repos\datafun-02-automation\Years\2023
+2025-09-04 09:28:25.726 | INFO     | __main__:create_folders_for_range:85 - Created folder: C:\Repos\datafun-02-automation\Years\2023
+2025-09-04 09:28:25 | INFO | __main__:104 | FUNCTION: create_folders_from_list()
+2025-09-04 09:28:25.727 | INFO     | __main__:create_folders_from_list:104 - FUNCTION: create_folders_from_list()
+2025-09-04 09:28:25 | INFO | __main__:105 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-04 09:28:25.727 | INFO     | __main__:create_folders_from_list:105 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-04 09:32:43 | INFO | utils_chrisbraun:47 | Logger loaded.
+2025-09-04 09:32:43 | INFO | __main__:36 | Logger loaded.
+2025-09-04 09:32:43.384 | INFO     | __main__:<module>:36 - Logger loaded.
+2025-09-04 09:32:43 | INFO | __main__:216 | #####################################
+2025-09-04 09:32:43.384 | INFO     | __main__:main:216 - #####################################
+2025-09-04 09:32:43 | INFO | __main__:217 | # Starting execution of main()
+2025-09-04 09:32:43.385 | INFO     | __main__:main:217 - # Starting execution of main()
+2025-09-04 09:32:43 | INFO | __main__:218 | #####################################
+
+2025-09-04 09:32:43.385 | INFO     | __main__:main:218 - #####################################
+
+2025-09-04 09:32:43 | INFO | __main__:221 | Byline: 
+**********************************************************
+Braun Data Concepts — Project Header
+**********************************************************
+Author:                     Chris Braun
+Motto:                      Precise. Timely. Useful.
+Years Active:               5
+Accepting New Clients?:     True
+Is Hiring?                  False
+Number of Employees         25
+Number of Offices?          3
+Office Locations?           ['Humphrey, NE', 'Norfolk, NE', 'Columbus, NE']
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-04 09:32:43.385 | INFO     | __main__:main:221 - Byline: 
+**********************************************************
+Braun Data Concepts — Project Header
+**********************************************************
+Author:                     Chris Braun
+Motto:                      Precise. Timely. Useful.
+Years Active:               5
+Accepting New Clients?:     True
+Is Hiring?                  False
+Number of Employees         25
+Number of Offices?          3
+Office Locations?           ['Humphrey, NE', 'Norfolk, NE', 'Columbus, NE']
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-04 09:32:43 | INFO | __main__:77 | FUNCTION: create_folders_for_range()
+2025-09-04 09:32:43.385 | INFO     | __main__:create_folders_for_range:77 - FUNCTION: create_folders_for_range()
+2025-09-04 09:32:43 | INFO | __main__:78 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-04 09:32:43.386 | INFO     | __main__:create_folders_for_range:78 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-04 09:32:43 | INFO | __main__:85 | Created folder: C:\Repos\datafun-02-automation\Years\2020
+2025-09-04 09:32:43.386 | INFO     | __main__:create_folders_for_range:85 - Created folder: C:\Repos\datafun-02-automation\Years\2020
+2025-09-04 09:32:43 | INFO | __main__:85 | Created folder: C:\Repos\datafun-02-automation\Years\2021
+2025-09-04 09:32:43.386 | INFO     | __main__:create_folders_for_range:85 - Created folder: C:\Repos\datafun-02-automation\Years\2021
+2025-09-04 09:32:43 | INFO | __main__:85 | Created folder: C:\Repos\datafun-02-automation\Years\2022
+2025-09-04 09:32:43.386 | INFO     | __main__:create_folders_for_range:85 - Created folder: C:\Repos\datafun-02-automation\Years\2022
+2025-09-04 09:32:43 | INFO | __main__:85 | Created folder: C:\Repos\datafun-02-automation\Years\2023
+2025-09-04 09:32:43.387 | INFO     | __main__:create_folders_for_range:85 - Created folder: C:\Repos\datafun-02-automation\Years\2023
+2025-09-04 09:32:43 | INFO | __main__:104 | FUNCTION: create_folders_from_list()
+2025-09-04 09:32:43.387 | INFO     | __main__:create_folders_from_list:104 - FUNCTION: create_folders_from_list()
+2025-09-04 09:32:43 | INFO | __main__:105 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-04 09:32:43.387 | INFO     | __main__:create_folders_from_list:105 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-04 09:32:43 | INFO | __main__:106 | PARAMETER: force_lowercase = False
+2025-09-04 09:32:43.387 | INFO     | __main__:create_folders_from_list:106 - PARAMETER: force_lowercase = False
+2025-09-04 09:32:43 | INFO | __main__:107 | PARAMETER: remove_spaces = False
+2025-09-04 09:32:43.387 | INFO     | __main__:create_folders_from_list:107 - PARAMETER: remove_spaces = False
+2025-09-04 09:32:43 | INFO | __main__:129 | Created folder: C:\Repos\datafun-02-automation\Names\data-csv
+2025-09-04 09:32:43.387 | INFO     | __main__:create_folders_from_list:129 - Created folder: C:\Repos\datafun-02-automation\Names\data-csv
+2025-09-04 09:32:43 | INFO | __main__:129 | Created folder: C:\Repos\datafun-02-automation\Names\data-excel
+2025-09-04 09:32:43.388 | INFO     | __main__:create_folders_from_list:129 - Created folder: C:\Repos\datafun-02-automation\Names\data-excel
+2025-09-04 09:32:43 | INFO | __main__:129 | Created folder: C:\Repos\datafun-02-automation\Names\data-json
+2025-09-04 09:32:43.388 | INFO     | __main__:create_folders_from_list:129 - Created folder: C:\Repos\datafun-02-automation\Names\data-json
+2025-09-04 09:32:43 | INFO | __main__:153 | FUNCTION: create_prefixed_folders()
+2025-09-04 09:32:43.388 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:153 - FUNCTION: create_prefixed_folders()
+2025-09-04 09:32:43 | INFO | __main__:154 | PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-04 09:32:43.388 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:154 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-04 09:32:43 | INFO | __main__:176 | FUNCTION: create_folders_periodically()
+2025-09-04 09:32:43.389 | INFO     | __main__:create_folders_periodically:176 - FUNCTION: create_folders_periodically()
+2025-09-04 09:32:43 | INFO | __main__:177 | PARAMETER: duration_seconds = 5
+2025-09-04 09:32:43.389 | INFO     | __main__:create_folders_periodically:177 - PARAMETER: duration_seconds = 5
+2025-09-04 09:32:43 | INFO | __main__:204 | FUNCTION: create_standardized_folders()
+2025-09-04 09:32:43.389 | INFO     | __main__:create_standardized_folders:204 - FUNCTION: create_standardized_folders()
+2025-09-04 09:32:43 | INFO | __main__:205 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-04 09:32:43.389 | INFO     | __main__:create_standardized_folders:205 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-04 09:32:43 | INFO | __main__:242 | 
+#####################################
+2025-09-04 09:32:43.389 | INFO     | __main__:main:242 - 
+#####################################
+2025-09-04 09:32:43 | INFO | __main__:243 | # Completed execution of main()
+2025-09-04 09:32:43.389 | INFO     | __main__:main:243 - # Completed execution of main()
+2025-09-04 09:32:43 | INFO | __main__:244 | #####################################
+2025-09-04 09:32:43.390 | INFO     | __main__:main:244 - #####################################

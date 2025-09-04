@@ -93,7 +93,7 @@ def create_folders_for_range(start_year: int, end_year: int) -> None:
 # add options to force lowercase and remove spaces
 #####################################
 
-def create_folders_from_list(folder_list: list) -> None:
+def create_folders_from_list(folder_list: list, force_lowercase: bool = False, remove_spaces: bool = False) -> None:
     '''
     Create folders based on a list of folder names.
     
@@ -108,6 +108,7 @@ def create_folders_from_list(folder_list: list) -> None:
 
     NAMED_ROOT.mkdir(exist_ok=True)
 
+    
     for folder_name in folder_list:  # Fixed: removed parentheses after folder_list
         # Process the folder name
         processed_name = str(folder_name).strip()  # Fixed: changed 'name' to 'folder_name'
