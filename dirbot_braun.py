@@ -27,6 +27,9 @@ sys.path.append(str(pathlib.Path(__file__).resolve().parent))
 # Import local modules
 import utils_chrisbraun
 
+# Import time for Function 4
+import time 
+
 #####################################
 # Configure Logger and Verify
 #####################################
@@ -184,13 +187,32 @@ def create_folders_periodically(duration_seconds: int) -> None:
     '''    
     logger.info("FUNCTION: create_folders_periodically()")
     logger.info(f"PARAMETER: duration_seconds = {duration_seconds}")
+
+    # Ensure the directory exists
+    TIMED_ROOT.mkdir(exist_ok=True)
+
+    # Use a counter to control how many folders to make
+    folder_count = 5
+    counter = 1
     
-    # TODO: Import time module from the Standard Library at the top if needed
-    # TODO: Use a counter or a list to control how many folders to create
-    # TODO: Wait between folder creations using time.sleep()
-    # TODO: Log each wait and creation
-    
-    pass
+    while counter <= folder_count:
+        # Create folder with timestamp in name
+        folder_name = f"timed_folder_{counter}_{int(time.time())}"
+        folder_path = TIMED_ROOT / folder_name
+
+        # Create the folder
+        folder_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {folder_path}")
+
+        # Log the wait time
+        if counter < folder_count: 
+            logger.info(f"Waiting {duration_seconds} seconds before the next folder...")
+            time.sleep(5)
+
+        counter += 1
+
+    logger.info(f"Created {folder_count} folders periodically")
+  
 
 
 #####################################
