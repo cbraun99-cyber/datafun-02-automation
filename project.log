@@ -195,3 +195,142 @@ Mean Satisfaction Score:    4.80
 2025-09-10 07:48:54.381 | INFO     | __main__:main:315 - # Completed execution of main()
 2025-09-10 07:48:54 | INFO | __main__:316 | #####################################
 2025-09-10 07:48:54.382 | INFO     | __main__:main:316 - #####################################
+2025-09-10 07:54:14 | INFO | utils_chrisbraun:47 | Logger loaded.
+2025-09-10 07:54:14 | INFO | __main__:39 | Logger loaded.
+2025-09-10 07:54:14.812 | INFO     | __main__:<module>:39 - Logger loaded.
+2025-09-10 07:54:14 | INFO | __main__:260 | #####################################
+2025-09-10 07:54:14.812 | INFO     | __main__:main:260 - #####################################
+2025-09-10 07:54:14 | INFO | __main__:261 | # Starting execution of main()
+2025-09-10 07:54:14.812 | INFO     | __main__:main:261 - # Starting execution of main()
+2025-09-10 07:54:14 | INFO | __main__:262 | #####################################
+
+2025-09-10 07:54:14.813 | INFO     | __main__:main:262 - #####################################
+
+2025-09-10 07:54:14 | INFO | __main__:264 | Byline: 
+**********************************************************
+Braun Data Concepts — Project Header
+**********************************************************
+Author:                     Chris Braun
+Motto:                      Precise. Timely. Useful.
+Years Active:               5
+Accepting New Clients?:     True
+Is Hiring?                  False
+Number of Employees         25
+Number of Offices?          3
+Office Locations?           ['Humphrey, NE', 'Norfolk, NE', 'Columbus, NE']
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-10 07:54:14.813 | INFO     | __main__:main:264 - Byline: 
+**********************************************************
+Braun Data Concepts — Project Header
+**********************************************************
+Author:                     Chris Braun
+Motto:                      Precise. Timely. Useful.
+Years Active:               5
+Accepting New Clients?:     True
+Is Hiring?                  False
+Number of Employees         25
+Number of Offices?          3
+Office Locations?           ['Humphrey, NE', 'Norfolk, NE', 'Columbus, NE']
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-10 07:54:14 | INFO | __main__:75 | FUNCTION: create_folders_for_range()
+2025-09-10 07:54:14.813 | INFO     | __main__:create_folders_for_range:75 - FUNCTION: create_folders_for_range()
+2025-09-10 07:54:14 | INFO | __main__:76 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-10 07:54:14.813 | INFO     | __main__:create_folders_for_range:76 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-10 07:54:14 | INFO | __main__:83 | Created folder: C:\Repos\datafun-02-automation\2020
+2025-09-10 07:54:14.814 | INFO     | __main__:create_folders_for_range:83 - Created folder: C:\Repos\datafun-02-automation\2020
+2025-09-10 07:54:14 | INFO | __main__:83 | Created folder: C:\Repos\datafun-02-automation\2021
+2025-09-10 07:54:14.814 | INFO     | __main__:create_folders_for_range:83 - Created folder: C:\Repos\datafun-02-automation\2021
+2025-09-10 07:54:14 | INFO | __main__:83 | Created folder: C:\Repos\datafun-02-automation\2022
+2025-09-10 07:54:14.815 | INFO     | __main__:create_folders_for_range:83 - Created folder: C:\Repos\datafun-02-automation\2022
+2025-09-10 07:54:14 | INFO | __main__:83 | Created folder: C:\Repos\datafun-02-automation\2023
+2025-09-10 07:54:14.816 | INFO     | __main__:create_folders_for_range:83 - Created folder: C:\Repos\datafun-02-automation\2023
+2025-09-10 07:54:14 | INFO | __main__:102 | FUNCTION: create_folders_from_list()
+2025-09-10 07:54:14.816 | INFO     | __main__:create_folders_from_list:102 - FUNCTION: create_folders_from_list()
+2025-09-10 07:54:14 | INFO | __main__:103 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-10 07:54:14.816 | INFO     | __main__:create_folders_from_list:103 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-10 07:54:14 | INFO | __main__:104 | PARAMETER: force_lowercase = False
+2025-09-10 07:54:14.816 | INFO     | __main__:create_folders_from_list:104 - PARAMETER: force_lowercase = False
+2025-09-10 07:54:14 | INFO | __main__:105 | PARAMETER: remove_spaces = False
+2025-09-10 07:54:14.816 | INFO     | __main__:create_folders_from_list:105 - PARAMETER: remove_spaces = False
+2025-09-10 07:54:14 | INFO | __main__:126 | Created folder: C:\Repos\datafun-02-automation\data-csv
+2025-09-10 07:54:14.817 | INFO     | __main__:create_folders_from_list:126 - Created folder: C:\Repos\datafun-02-automation\data-csv
+2025-09-10 07:54:14 | INFO | __main__:126 | Created folder: C:\Repos\datafun-02-automation\data-excel
+2025-09-10 07:54:14.817 | INFO     | __main__:create_folders_from_list:126 - Created folder: C:\Repos\datafun-02-automation\data-excel
+2025-09-10 07:54:14 | INFO | __main__:126 | Created folder: C:\Repos\datafun-02-automation\data-json
+2025-09-10 07:54:14.818 | INFO     | __main__:create_folders_from_list:126 - Created folder: C:\Repos\datafun-02-automation\data-json
+2025-09-10 07:54:14 | INFO | __main__:150 | FUNCTION: create_prefixed_folders()
+2025-09-10 07:54:14.818 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:150 - FUNCTION: create_prefixed_folders()
+2025-09-10 07:54:14 | INFO | __main__:151 | PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = 'output-'
+2025-09-10 07:54:14.818 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:151 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = 'output-'
+2025-09-10 07:54:14 | INFO | __main__:159 | Created prefixed folder: C:\Repos\datafun-02-automation\output-csv
+2025-09-10 07:54:14.819 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:159 - Created prefixed folder: C:\Repos\datafun-02-automation\output-csv
+2025-09-10 07:54:14 | INFO | __main__:159 | Created prefixed folder: C:\Repos\datafun-02-automation\output-excel
+2025-09-10 07:54:14.819 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:159 - Created prefixed folder: C:\Repos\datafun-02-automation\output-excel
+2025-09-10 07:54:14 | INFO | __main__:159 | Created prefixed folder: C:\Repos\datafun-02-automation\output-json
+2025-09-10 07:54:14.820 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:159 - Created prefixed folder: C:\Repos\datafun-02-automation\output-json
+2025-09-10 07:54:14 | INFO | __main__:178 | FUNCTION: create_folders_periodically()
+2025-09-10 07:54:14.820 | INFO     | __main__:create_folders_periodically:178 - FUNCTION: create_folders_periodically()
+2025-09-10 07:54:14 | INFO | __main__:179 | PARAMETER: duration_seconds = 5
+2025-09-10 07:54:14.820 | INFO     | __main__:create_folders_periodically:179 - PARAMETER: duration_seconds = 5
+2025-09-10 07:54:14 | INFO | __main__:194 | Created folder: C:\Repos\datafun-02-automation\timed_folder_1_1757508854
+2025-09-10 07:54:14.821 | INFO     | __main__:create_folders_periodically:194 - Created folder: C:\Repos\datafun-02-automation\timed_folder_1_1757508854
+2025-09-10 07:54:14 | INFO | __main__:198 | Waiting 5 seconds before the next folder...
+2025-09-10 07:54:14.821 | INFO     | __main__:create_folders_periodically:198 - Waiting 5 seconds before the next folder...
+2025-09-10 07:54:19 | INFO | __main__:194 | Created folder: C:\Repos\datafun-02-automation\timed_folder_2_1757508859
+2025-09-10 07:54:19.822 | INFO     | __main__:create_folders_periodically:194 - Created folder: C:\Repos\datafun-02-automation\timed_folder_2_1757508859
+2025-09-10 07:54:19 | INFO | __main__:198 | Waiting 5 seconds before the next folder...
+2025-09-10 07:54:19.823 | INFO     | __main__:create_folders_periodically:198 - Waiting 5 seconds before the next folder...
+2025-09-10 07:54:24 | INFO | __main__:194 | Created folder: C:\Repos\datafun-02-automation\timed_folder_3_1757508864
+2025-09-10 07:54:24.825 | INFO     | __main__:create_folders_periodically:194 - Created folder: C:\Repos\datafun-02-automation\timed_folder_3_1757508864
+2025-09-10 07:54:24 | INFO | __main__:198 | Waiting 5 seconds before the next folder...
+2025-09-10 07:54:24.825 | INFO     | __main__:create_folders_periodically:198 - Waiting 5 seconds before the next folder...
+2025-09-10 07:54:29 | INFO | __main__:194 | Created folder: C:\Repos\datafun-02-automation\timed_folder_4_1757508869
+2025-09-10 07:54:29.827 | INFO     | __main__:create_folders_periodically:194 - Created folder: C:\Repos\datafun-02-automation\timed_folder_4_1757508869
+2025-09-10 07:54:29 | INFO | __main__:198 | Waiting 5 seconds before the next folder...
+2025-09-10 07:54:29.827 | INFO     | __main__:create_folders_periodically:198 - Waiting 5 seconds before the next folder...
+2025-09-10 07:54:34 | INFO | __main__:194 | Created folder: C:\Repos\datafun-02-automation\timed_folder_5_1757508874
+2025-09-10 07:54:34.829 | INFO     | __main__:create_folders_periodically:194 - Created folder: C:\Repos\datafun-02-automation\timed_folder_5_1757508874
+2025-09-10 07:54:34 | INFO | __main__:203 | Created 5 folders periodically
+2025-09-10 07:54:34.829 | INFO     | __main__:create_folders_periodically:203 - Created 5 folders periodically
+2025-09-10 07:54:34 | INFO | __main__:224 | FUNCTION: create_standardized_folders()
+2025-09-10 07:54:34.830 | INFO     | __main__:create_standardized_folders:224 - FUNCTION: create_standardized_folders()
+2025-09-10 07:54:34 | INFO | __main__:225 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-10 07:54:34.830 | INFO     | __main__:create_standardized_folders:225 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-10 07:54:34 | INFO | __main__:249 | Create standardized folder: C:\Repos\datafun-02-automation\northamerica
+2025-09-10 07:54:34.831 | INFO     | __main__:create_standardized_folders:249 - Create standardized folder: C:\Repos\datafun-02-automation\northamerica
+2025-09-10 07:54:34 | INFO | __main__:249 | Create standardized folder: C:\Repos\datafun-02-automation\southamerica
+2025-09-10 07:54:34.832 | INFO     | __main__:create_standardized_folders:249 - Create standardized folder: C:\Repos\datafun-02-automation\southamerica
+2025-09-10 07:54:34 | INFO | __main__:249 | Create standardized folder: C:\Repos\datafun-02-automation\europe
+2025-09-10 07:54:34.832 | INFO     | __main__:create_standardized_folders:249 - Create standardized folder: C:\Repos\datafun-02-automation\europe
+2025-09-10 07:54:34 | INFO | __main__:249 | Create standardized folder: C:\Repos\datafun-02-automation\asia
+2025-09-10 07:54:34.833 | INFO     | __main__:create_standardized_folders:249 - Create standardized folder: C:\Repos\datafun-02-automation\asia
+2025-09-10 07:54:34 | INFO | __main__:249 | Create standardized folder: C:\Repos\datafun-02-automation\africa
+2025-09-10 07:54:34.834 | INFO     | __main__:create_standardized_folders:249 - Create standardized folder: C:\Repos\datafun-02-automation\africa
+2025-09-10 07:54:34 | INFO | __main__:249 | Create standardized folder: C:\Repos\datafun-02-automation\oceania
+2025-09-10 07:54:34.834 | INFO     | __main__:create_standardized_folders:249 - Create standardized folder: C:\Repos\datafun-02-automation\oceania
+2025-09-10 07:54:34 | INFO | __main__:249 | Create standardized folder: C:\Repos\datafun-02-automation\middleeast
+2025-09-10 07:54:34.835 | INFO     | __main__:create_standardized_folders:249 - Create standardized folder: C:\Repos\datafun-02-automation\middleeast
+2025-09-10 07:54:34 | INFO | __main__:285 | 
+#####################################
+2025-09-10 07:54:34.835 | INFO     | __main__:main:285 - 
+#####################################
+2025-09-10 07:54:34 | INFO | __main__:286 | # Completed execution of main()
+2025-09-10 07:54:34.835 | INFO     | __main__:main:286 - # Completed execution of main()
+2025-09-10 07:54:34 | INFO | __main__:287 | #####################################
+2025-09-10 07:54:34.835 | INFO     | __main__:main:287 - #####################################
