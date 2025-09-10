@@ -81,10 +81,14 @@ def create_folders_for_range(start_year: int, end_year: int) -> None:
     logger.info(f"PARAMETERS: start_year = {start_year}, end_year = {end_year}")
 
     YEAR_ROOT.mkdir(exist_ok=True)
+    # Add .gitkeep to root folder
+    (YEAR_ROOT / ".gitkeep").touch(exist_ok=True)
  
     for year in range(start_year, end_year +1):
         year_path = YEAR_ROOT / str(year)
         year_path.mkdir(exist_ok=True)
+        # Add .gitkeep file to ensure Git tracks the folder
+        (year_path / ".gitkeep").touch(exist_ok=True)
         logger.info(f"Created folder: {year_path}")
 
   
@@ -110,11 +114,13 @@ def create_folders_from_list(folder_list: list, force_lowercase: bool = False, r
     logger.info(f"PARAMETER: remove_spaces = {remove_spaces}")
 
     NAMED_ROOT.mkdir(exist_ok=True)
+    # Add .gitkeep to root folder
+    (NAMED_ROOT / ".gitkeep").touch(exist_ok=True)
 
     
-    for folder_name in folder_list:  # Fixed: removed parentheses after folder_list
+    for folder_name in folder_list:
         # Process the folder name
-        processed_name = str(folder_name).strip()  # Fixed: changed 'name' to 'folder_name'
+        processed_name = str(folder_name).strip()
         
         if force_lowercase:
             processed_name = processed_name.lower()
@@ -129,6 +135,8 @@ def create_folders_from_list(folder_list: list, force_lowercase: bool = False, r
         
         folder_path = NAMED_ROOT / processed_name
         folder_path.mkdir(exist_ok=True)
+        # Add .gitkeep file to ensure Git tracks the folder
+        (folder_path / ".gitkeep").touch(exist_ok=True)
         logger.info(f"Created folder: {folder_path}")
 
     pass
@@ -158,14 +166,15 @@ def create_prefixed_folders_using_list_comprehension(folder_list: list, prefix: 
 
     # Ensure the root directory exists
     PREFIXED_LC_ROOT.mkdir(exist_ok=True)
+    # Add .gitkeep to root folder
+    (PREFIXED_LC_ROOT / ".gitkeep").touch(exist_ok=True)
 
-    # Create directories using list comprehension for process and loop for creation
-    [ (PREFIXED_LC_ROOT /f"{prefix}{folder_name}").mkdir(exist_ok=True)
-      for folder_name in folder_list ]
-    
-    # Log the created folders
+    # Create directories and .gitkeep files using list comprehension
     for folder_name in folder_list:
         folder_path = PREFIXED_LC_ROOT / f"{prefix}{folder_name}"
+        folder_path.mkdir(exist_ok=True)
+        # Add .gitkeep file to ensure Git tracks the folder
+        (folder_path / ".gitkeep").touch(exist_ok=True)
         logger.info(f"Created prefixed folder: {folder_path}")
 
 
@@ -190,6 +199,8 @@ def create_folders_periodically(duration_seconds: int) -> None:
 
     # Ensure the directory exists
     TIMED_ROOT.mkdir(exist_ok=True)
+    # Add .gitkeep to root folder
+    (TIMED_ROOT / ".gitkeep").touch(exist_ok=True)
 
     # Use a counter to control how many folders to make
     folder_count = 5
@@ -202,6 +213,8 @@ def create_folders_periodically(duration_seconds: int) -> None:
 
         # Create the folder
         folder_path.mkdir(exist_ok=True)
+        # Add .gitkeep file to ensure Git tracks the folder
+        (folder_path / ".gitkeep").touch(exist_ok=True)
         logger.info(f"Created folder: {folder_path}")
 
         # Log the wait time
@@ -237,6 +250,8 @@ def create_standardized_folders(folder_list: list, to_lowercase: bool = False, r
 
     # Ensure the root directory exists
     STANDARD_ROOT.mkdir(exist_ok=True)
+    # Add .gitkeep to root folder
+    (STANDARD_ROOT / ".gitkeep").touch(exist_ok=True)
 
     for folder_name in folder_list:
         # Standardize the folder name
@@ -258,6 +273,8 @@ def create_standardized_folders(folder_list: list, to_lowercase: bool = False, r
         #Create the standardized folder
         folder_path = STANDARD_ROOT / processed_name
         folder_path.mkdir(exist_ok=True)
+        # Add .gitkeep file to ensure Git tracks the folder
+        (folder_path / ".gitkeep").touch(exist_ok=True)
         logger.info(f"Create standardized folder: {folder_path}")
 
 
